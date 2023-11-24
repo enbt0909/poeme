@@ -46,11 +46,12 @@ p {
   border-radius: 0.4em;
   margin: .3em;
   transition: .25s;
+  padding: 1.5em;
 }
 p:hover {
   transition: .25s;
   transform: scale(1.002);
-  box-shadow: 5px 5px 1px grey;
+  box-shadow: 0 -5px 1px rgba(128, 128, 128, 0.484), 0 5px 1px rgba(128, 128, 128, 0.484);
   color: #06062c;
   font-size: 16.2px;
 }
